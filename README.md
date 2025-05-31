@@ -1,32 +1,16 @@
 #SEAN NOTES  
 ALL COMMANDS AND PURPOSE
-whoami
-
-id
-
-cd
-
-ls
-
-touch
-
-echo
-
-cat
-
-file
-
-cp
-
-mv
-
-rm
-
-
-
-
-
-
+- whoami – Shows the current logged-in username.
+- id – Displays user ID and group ID information.
+- cd – Changes the current directory.
+- ls – Lists files and directories in the current directory.
+- touch – Creates a new empty file.
+- echo – Prints text or variables to the terminal.
+- cat – Displays the contents of a file.
+- file – Shows the type of a file.
+- cp – Copies files or directories.
+- mv – Moves or renames files or directories.
+- rm – Deletes files or directories.
 
 I forgot to commit to the first Zoom meeting
 Introduction to information technology
