@@ -11,6 +11,17 @@ ALL COMMANDS AND PURPOSE
 - cp – Copies files or directories.
 - mv – Moves or renames files or directories.
 - rm – Deletes files or directories.
+Cool Computer Science Fact
+
+- Modern CPUs use something called **speculative execution**.
+- This means the computer **guesses** what your code will do next and starts doing it **before it's sure**.
+- If it's right → the program runs faster!
+- If it's wrong, it just throws away the work.
+
+Why this matters:
+
+- It helps programs run **super fast**.
+- But it also caused some security problems in which the computer could accidentally look at things they shouldn't have or private files
 
 I forgot to commit to the first Zoom meeting
 Introduction to information technology
