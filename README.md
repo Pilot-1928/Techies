@@ -4,8 +4,8 @@ ALL COMMANDS AND PURPOSE
 - id – Displays user ID and group ID information.
 - cd – Changes the current directory.
 - ls – Lists files and directories in the current directory.
-- touch – Creates a new empty file.
-- echo – Prints text or variables to the terminal.
+- touch – Creates a new empty file. Can also modify and update a file. If it exists, it will update the timestamp of the last modification.
+- echo – Prints text or variables to the terminal. Shows the arguments you input (Anything you put after a command)
 - cat – Displays the contents of a file.
 - file – Shows the type of a file.
 - cp – Copies files or directories.
