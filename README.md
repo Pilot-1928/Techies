@@ -118,3 +118,9 @@ GUI
 - essentially any graphics like logos, or the mouse
 CLI
 - Command Line Interface
+
+The **terminal** is a program where you type commands to talk to your computer.
+- The **console** is the screen or place where the terminal shows what you type and the computer's response.
+- The **shell** is the part that understands your commands and tells the computer what to do.
+- There are different kinds of shells, like bash and zsh.
+- The terminal is the window, the console is what you see in it, and the shell is like the brain that runs the commands.
