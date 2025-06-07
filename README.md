@@ -1,7 +1,66 @@
 #SEAN NOTES  
+HOMEWORK:
+- Explain the top-level directories in the Linux file system
+-  Root  
+The top-level directory. Everything starts from here.
+
+bin  
+Essential command-line programs used by everyone (ls, cp, mv).
+
+boot  
+Files required to start the system, including the kernel.
+
+dev  
+Device files representing hardware like hard drives, USBs, etc.
+
+etc  
+Configuration files for the system and installed applications.
+
+home  
+Personal directories for users. For example, home/alex for user alex.
+
+lib  
+Shared libraries needed by system programs in bin and sbin.
+
+media  
+Mount point for automatically attached external devices (USB, CD).
+
+mnt  
+Mount point for manually attached drives or file systems.
+
+opt  
+Location for optional or third-party software packages.
+
+proc  
+Virtual directory containing information about system processes and kernel state.
+
+root  
+Home directory for the root (administrator) user.
+
+run  
+Temporary directory holding information about running services and sessions.
+
+sbin  
+System binaries used by the administrator (shutdown, mount, etc.).
+
+srv  
+Data for services provided by the system (web server, FTP, etc.).
+
+sys  
+Virtual directory exposing hardware and device information.
+
+tmp  
+Temporary files used by applications and cleaned at reboot.
+
+usr  
+Installed software and user utilities that remain constant (games, tools).
+
+var  
+Variable data files like logs, mail, and print queues.
 ALL COMMANDS AND PURPOSE
 - whoami – Shows the current logged-in username.
 - id – Displays user ID and group ID information.
+-    When a user is created in Linux or Unix, they get a User ID and Group ID. They both tend to have your name in them, and if you are in any other groups, you will be given those group IDs as well
 - cd – Changes the current directory.
 - ls – Lists files and directories in the current directory.
 - touch – Creates a new empty file. Can also modify and update a file. If it exists, it will update the timestamp of the last modification.
@@ -9,7 +68,12 @@ ALL COMMANDS AND PURPOSE
 - cat – Displays the contents of a file.
 - file – Shows the type of a file.
 - cp – Copies files or directories.
+-  Same Syntax as mv
 - mv – Moves or renames files or directories.
+-  mv SOURCE DESTINATION
+-  SOURCE  = The path to a file
+-  DESTINATION = Where you want to put the file
+-   EX: mv(/home/sean/file2.txt) (/etc/crazy)
 - rm – Deletes files or directories.
 Cool Computer Science Fact
 
@@ -124,3 +188,91 @@ The **terminal** is a program where you type commands to talk to your computer.
 - The **shell** is the part that understands your commands and tells the computer what to do.
 - There are different kinds of shells, like bash and zsh.
 - The terminal is the window, the console is what you see in it, and the shell is like the brain that runs the commands.
+
+File Systems
+- Why it's important:
+- Helps the computer find and open your files.
+- Lets you organize stuff into folders.
+- Keeps track of used and empty space.
+- Makes sure files are saved and opened the right way.
+
+---
+
+Types of File Systems (and What They Do)
+
+FAT32
+- Works on most computers (Windows, Mac, Linux).
+- Good for USB drives and SD cards.
+- Can't hold files bigger than 4GB.
+- Simple, but not super secure.
+
+NTFS
+- Used by Windows computers.
+- Can hold very large files.
+- Has extra features like file protection and encryption.
+- Mac can read it, but can't always write to it.
+
+exFAT
+- Works on Windows and Mac.
+- Great for big files and external drives.
+- Doesn’t have extra features like NTFS.
+
+ext4
+- Used mostly by Linux.
+- Fast and good for large storage.
+- Windows doesn’t support it by default.
+
+Understanding the Linux File System
+- Like a file cabinet
+-  Organized in a simple manner
+-    A bunch of folders or "Directories"
+-     There is a "Root folder" or just the "Root", and it is depicted as a slash
+-  This folder is basically the start of all the files
+-  You can enter the root directory and use it to enter other directories
+-  The user starts outside of the file system. You can use the pwd command to find where you are in the file system
+- *Root*
+-  Pwd = /
+- *Bin*
+-  Pwd = /Bin
+- *Home*
+-  Pwd = /home
+-   Sean
+-    (File)file2.txt
+-   Khalid
+-    Random
+-     (File)file7.txt
+-   Christian
+-   Pwd = home/Sean
+- *Var*
+-  Logs
+-   (File)Messages
+-  Pwd = /Var
+- *Etc*
+-  Crazy
+-   (File)file6.txt
+-  ssh
+-   sshd
+-    (File)sshd_config
+-  Pwd = /Etc
+- cd (Change) Directory
+-  You need to specify where to start and what route to take
+-  Let's say I want to go to my directory from root
+- Rules
+-  All files and directories are separated by a "/"
+-  Absolute path: You must start from the root directory
+-  The Pwd won't say that you are in a file
+-  Additional info
+-  / = Root directory
+-  Root = SUPER user (admin)
+-  /root root user's home directory
+-  Pwd = Personal Working DIRECTORY
+There are 2 paths
+ Absolute Path
+ Starts from root and has a / between each location (Very simple)
+Relative Path
+- .=Current working directory
+-  The dot represents where we are
+-  We can use it in place of where we currently are if we want to move a file or folder
+-  ..= parent diriectory
+-   Has Child directories
+-     It works as simply as it sounds
