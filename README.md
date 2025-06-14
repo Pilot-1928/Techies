@@ -323,3 +323,5 @@ Relative Path
 -  ..= parent diriectory
 -   Has Child directories
 -     It works as simply as it sounds
+Each command has a default function
+- options lets you change that
