@@ -325,5 +325,5 @@ Relative Path
 -     It works as simply as it sounds
 Each command has a default function
 - options lets you change that
-HOMEWORK 8-09-2025
-Find how to create a webserver on cent09 by any means necessary
+HOMEWORK
+Look through history and try to get CHATGPT to format a nice format in md format basicall copy and past what we did today from history
