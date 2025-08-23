@@ -327,3 +327,4 @@ Each command has a default function
 - options lets you change that
 HOMEWORK
 Look through history and try to get CHATGPT to format a nice format in md format basicall copy and past what we did today from history
+research API methods and what it is, then take your answer and put it into our website formatted nicely
