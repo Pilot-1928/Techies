@@ -325,7 +325,18 @@ Relative Path
 -     It works as simply as it sounds
 Each command has a default function
 - options lets you change that
+- Yum is the package manager 
+GIT NOTES
+A version control system to work with other people to collaborate on
+Git Checkout is used to change branches
+PYTHON
+How to activate python virtual environemnt(venv): source hadith.venv/bin/acti
+The most beginner friendly language and the most high level language that is most widely used
+Goals
+setup networking on our nagios server
+ensure that we have a static ip
+setup ssh keys
+install nagios
+configure and run nagios
 HOMEWORK
-Do something to the repository
-research API methods and what it is, then take your answer and put it into our website formatted nicely
-Make another virtual machine
+- 
