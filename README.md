@@ -338,5 +338,6 @@ ensure that we have a static ip
 setup ssh keys
 install nagios
 configure and run nagios
-HOMEWORK
-- 
+TO MAKE A STATIC IP
+- PS Command
+-  allows you to see processes and you have different options and arguments you can give ( mostly options) to either view your or the system wide processes that are runnning
